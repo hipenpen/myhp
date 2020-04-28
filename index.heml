@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    	<meta charset="utf-8">
+    	<title>
+    		学院PAYトップページ
+    	</title>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <body>
+    	        
+    	    	
+    	    	<h2 class="center-align"> 学院PAYに登録する
+    	    	</h2>	
+    	    	<h3 class="center-align">
+    	    		<button id=Registration class="btn btn-large"　>登録</button>
+    	    	</h3>
+    	    	<h4 class="center-align"> 学院PAYにログインする
+    	    	</h4>	
+    	    	<h5 class="center-align">
+    	    		<button id=Login class="btn btn-large"　>ログイン</button>
+    	    	</h5>
+　　　　　　　　　　　　　
+    	        
+
+    		
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		    <script type="text/javascript">
+		    	$(function(){
+		    		$('#Registration').click(function(){
+		    			window.open('G-payregistration.html');
+		    		})
+		    		$('#Login').click(function(){
+		    			window.open('G-paylogin.html');
+		    		})
+		    	})
+		    </script>
+    </body>
+
+
+    </head>
